@@ -129,29 +129,20 @@ write_spef results/sky130hd/VSDBabySoC/base/VSDBabySoC.spef
 
 SPEF (Standard Parasitic Exchange Format) represents:
 
-Wire resistances
-
-Wire capacitances
-
-Coupling capacitances between nets
-
-Parasitic delay contributions
+- Wire resistances
+- Wire capacitances
+- Coupling capacitances between nets
+- Parasitic delay contributions
 
 ✔ Vital for Accurate STA (Static Timing Analysis)
 
-Without SPEF, STA uses ideal wires → unrealistic timing.
-
-With SPEF, STA uses extracted RC parasitics, giving:
-
-Accurate delay
-
-Better slack estimation
-
-Correct setup/hold analysis
-
-Realistic clock skew calculations
-
-Final sign-off timing metrics
+- Without SPEF, STA uses ideal wires → unrealistic timing.
+- With SPEF, STA uses extracted RC parasitics, giving:
+- Accurate delay
+- Better slack estimation
+- Correct setup/hold analysis
+- Realistic clock skew calculations
+- Final sign-off timing metrics
 
 Thus, SPEF is essential for tape-out-quality design verification.
 
