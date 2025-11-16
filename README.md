@@ -7,12 +7,16 @@ This repository contains the steps, logs, screenshots, and observations from com
 1.1 Layout Screenshots / Images
 
 ✔️ Floorplan view
+![floorplan](screenshots/floorplan.jpg)
 
 ✔️ Placement view
+![placement](screenshots/placement.jpg)
 
 ✔️ CTS view
+![cts](screenshots/cts.jpg)
 
 ✔️ Routed design (with congestion issue noted)
+![routing](screenshots/routing.jpg)
 
 ✔️ Terminal output showing SPEF generation
 
